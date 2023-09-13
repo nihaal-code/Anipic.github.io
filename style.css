@@ -4,13 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-.full-page
-{
-  
-  height: 100%;
-	width: 100%;
-	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bg-2.jpg);
-	background-position: center;
-	background-size: cover;
-	position: absolute;
+.big-letter {
+        font-size: 48px;
+        display: inline-block;
+        margin: 20px 0;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 4px #FF0000; /* Adds a red glowing effect to the text */
+}
+
+.glowing-button {
+        background-color: #4CAF50; /* Green background color */
+        color: white; /* White text color */
+        border: none; /* Remove border */
+        padding: 15px 30px; /* Add padding */
+        text-align: center; /* Center text horizontally */
+        text-decoration: none; /* Remove underlines from links */
+        display: inline-block; /* Make it a block element (full-width) */
+        font-size: 20px; /* Increase font size */
+        margin-bottom: 20px;
+        box-shadow: 0px 0px 10px #4CAF50; /* Add a glowing effect to the button */
 }
